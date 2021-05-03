@@ -122,9 +122,9 @@ public class PlayerManager : MonoBehaviour
                 cam.transform.position = predictpos[0];//Vector3.Lerp(cam.transform.position, , inter_po);
                 leftController.transform.position = predictpos[1];//Vector3.Lerp(leftController.transform.position, predictpos[1], inter_po);
                 rightController.transform.position = predictpos[2];//Vector3.Lerp(rightController.transform.position, predictpos[2], inter_po);
-                // cam.transform.rotation = predictrot[0];
-                // leftController.transform.rotation = predictrot[1];
-                // rightController.transform.rotation = predictrot[2];
+                //cam.transform.rotation = predictrot[0];
+                //leftController.transform.rotation = predictrot[1];
+                //rightController.transform.rotation = predictrot[2];
                 cam.transform.rotation = prev_rot[0];
                 leftController.transform.rotation = prev_rot[1];
                 rightController.transform.rotation = prev_rot[2];
